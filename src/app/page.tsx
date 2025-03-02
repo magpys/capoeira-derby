@@ -8,7 +8,11 @@ export default function Home() {
         className="relative w-full h-96 bg-[url('/group-smiling.jpeg')] bg-cover bg-center bg-no-repeat"
       >
         <div className="absolute inset-0 bg-black/60 flex items-center justify-center p-6">
-          <h1 className="text-4xl font-bold text-white text-center">Capoeira: Movement, Music, Community</h1>
+          <h1 className="text-4xl font-bold text-white text-center">Capoeira:
+            <span className={"text-amber-200"}> Movement, </span>
+            <span className={"text-green-200"}>Music, </span>
+            <span className={"text-blue-200"}>Community</span>
+          </h1>
         </div>
       </section>
       <section className="relative mx-auto max-w-5xl p-12 flex items-center justify-center">
