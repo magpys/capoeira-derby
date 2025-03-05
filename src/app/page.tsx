@@ -18,7 +18,11 @@ export default function Home() {
           Come and learn the Brazilian martial art of Capoeira, in Derby city.
         </p>
       </section>
-      <section className={"mx-auto max-w-5xl p-6 flex items-center gap-6"}>
+      <section
+        className={
+          "mx-auto max-w-5xl p-6 flex flex-col md:flex-row items-center gap-6"
+        }
+      >
         <div className="flex flex-col w-full gap-3 p-6 text-lg">
           <p>
             Capoeira is more than just a martial art—it’s a blend of movement,
@@ -40,7 +44,7 @@ export default function Home() {
           height={"300"}
         />
       </section>
-      <section className="mx-auto max-w-5xl p-6 flex items-center gap-6">
+      <section className="mx-auto max-w-5xl p-6 flex flex-col-reverse md:flex-row items-center gap-6">
         <Image
           src={"/batteria.jpeg"}
           alt={
@@ -53,13 +57,13 @@ export default function Home() {
           <p>
             Developed by African slaves in Brazil, the practice of Capoeira was
             disguised with ritual and dance so that the slave-owners would
-            remain unaware of it’s{" "}
-            <StyledLink href={"/what-is-capoeira"}>true nature</StyledLink>. The
-            ideals of cunning, misdirection and subterfuge run through the art
-            like a lifeblood.
+            remain unaware of it’s true nature. The ideals of cunning,
+            misdirection and subterfuge run through the art like a lifeblood.
           </p>
           <p>
-            <StyledLink href={"/what-is-capoeira"}>Learn more</StyledLink>
+            <StyledLink href={"/what-is-capoeira"}>
+              Learn more about Capoeira
+            </StyledLink>
           </p>
           <p>
             We have been teaching Capoeira in Derby city since the group was

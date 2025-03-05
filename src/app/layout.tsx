@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Image from "next/image";
-import Link from "next/link";
 import FacebookIcon from "@/components/FacebookIcon";
 import InstagramIcon from "@/components/InstagramIcon";
-import MenuItem from "@/components/MenuItem";
 import StyledLink from "@/components/StyledLink";
+import React from "react";
+import Header from "@/components/Header";
 
 export const metadata: Metadata = {
   title: "Capoeira Derby",
@@ -20,37 +19,20 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`antialiased min-h-screen`}>
-        <header
-          className={`bg-white flex items-center justify-between p-12 gap-6 h-20 fixed z-10 w-screen`}
-        >
-          <Link href={"/"}>
-            <Image
-              src={`/Capoeira-derby-text-only.png`}
-              alt="Capoeira Derby"
-              width={200}
-              height={200}
-              className="object-contain"
-            />
-          </Link>
-          <div className={"flex flex-row justify-center gap-6"}>
-            <MenuItem href={"/what-is-capoeira"} title={"What is Capoeira?"} />
-            <MenuItem
-              href={"/can-i-do-capoeira"}
-              title={"Can I do Capoeira?"}
-            />
-            <MenuItem href={"/classes"} title={"Classes"} />
-            <MenuItem href={"/our-group"} title={"Our Group"} />
-          </div>
-        </header>
+        <Header />
         <main className={"text-gray-900 pt-22 bg-green-100 pb-10"}>
           {children}
         </main>
         <footer
           className={
-            "flex w-screen bg-amber-50 justify-between p-6 gap-6 items-start"
+            "flex w-screen bg-amber-50 justify-center p-6 gap-6 items-center flex-col md:flex-row md:justify-between md:items-start"
           }
         >
-          <div className={"flex flex-col justify-center"}>
+          <div
+            className={
+              "flex flex-col justify-center items-center md:items-start"
+            }
+          >
             <p className={"font-bold text-lg"}>Quick Links</p>
             <StyledLink href={"/what-is-capoeira"}>
               What is Capoeira?
