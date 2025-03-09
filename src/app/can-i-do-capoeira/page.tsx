@@ -82,9 +82,9 @@ export default function CanIDoCapoeiraPage() {
         </p>
         <p className={"font-bold text-xl italic"}>Are you qualified?</p>
         <p>
-          Yes. Please see our{" "}
-          <StyledLink href={"/instructors"}>Instructors page</StyledLink> for
-          more information.
+          Yes. Dan (the main instructor) has a first aid qualification, a basic
+          DBS certificate and has been teaching Capoeira for 3 years, and
+          practising Capoeira for 8 years before that!
         </p>
       </section>
     </>

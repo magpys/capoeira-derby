@@ -14,20 +14,29 @@ export default function ClassesPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="bg-white shadow-lg rounded-2xl p-6 border border-gray-200">
             <h3 className="text-xl font-semibold text-blue-600">Kids Class</h3>
-            <p className="text-gray-700 mt-2">
-              <strong>🗓 Day:</strong> Thursday
-            </p>
-            <p className="text-gray-700">
-              <strong>⏰ Time:</strong> 7:00pm - 8:00pm
-            </p>
-            <p className="text-gray-700">
-              <strong>📍 Location:</strong> The Lonny Wilsoncroft Community
-              Centre, Stepping Lane, Derby, DE1 1GL
-            </p>
-            <p className="text-gray-700">
-              <strong>👶 Ages:</strong> 5 - 10
-            </p>
-            <p className="text-gray-700 mt-3">
+            <div className={"flex flex-col gap-1 mt-2"}>
+              <p className="text-gray-700 mt-2">
+                <strong>🗓 Day:</strong> Thursday
+              </p>
+              <p className="text-gray-700">
+                <strong>⏰ Time:</strong> 7:00pm - 8:00pm
+              </p>
+              <p className="text-gray-700">
+                <strong>📍 Location:</strong>
+                <p className="text-gray-700 pl-3">
+                  The Lonny Wilsoncroft Community Centre,
+                  <br />
+                  Stepping Lane,
+                  <br />
+                  Derby, <br />
+                  DE1 1GL
+                </p>
+              </p>
+              <p className="text-gray-700">
+                <strong>👶 Ages:</strong> 5 - 10
+              </p>
+            </div>
+            <p className="text-gray-700 mt-5">
               An hour long session for 5 to 10 year olds that uses capoeira to
               develop physical and social skills. Exercises are based on fun,
               interaction and letting off steam!
@@ -38,20 +47,29 @@ export default function ClassesPage() {
             <h3 className="text-xl font-semibold text-blue-600">
               Adults Class
             </h3>
-            <p className="text-gray-700 mt-2">
-              <strong>🗓 Day:</strong> Thursday
-            </p>
-            <p className="text-gray-700">
-              <strong>⏰ Time:</strong> 7:30 - 9:00pm
-            </p>
-            <p className="text-gray-700">
-              <strong>📍 Location:</strong> The Lonny Wilsoncroft Community
-              Centre, Stepping Lane, Derby, DE1 1GL
-            </p>
-            <p className="text-gray-700">
-              <strong>💪 All Levels Welcome!</strong>
-            </p>
-            <p className="text-gray-700 mt-3">
+            <div className={"flex flex-col gap-1 mt-2"}>
+              <p className="text-gray-700 mt-2">
+                <strong>🗓 Day:</strong> Thursday
+              </p>
+              <p className="text-gray-700">
+                <strong>⏰ Time:</strong> 7:30 - 9:00pm
+              </p>
+              <p className="text-gray-700">
+                <strong>📍 Location:</strong>
+                <p className="text-gray-700 pl-3">
+                  The Lonny Wilsoncroft Community Centre,
+                  <br />
+                  Stepping Lane,
+                  <br />
+                  Derby, <br />
+                  DE1 1GL
+                </p>
+              </p>
+              <p className="text-gray-700">
+                <strong>💪 All Levels Welcome!</strong>
+              </p>
+            </div>
+            <p className="text-gray-700 mt-5">
               The main class is a mix of warm-up, stretching, conditioning,
               capoeira techniques and rodas (games). Capoeira has a wide variety
               of techniques and disciplines, so classes are varied week to week.

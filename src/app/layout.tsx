@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`antialiased min-h-screen`}>
         <Header />
-        <main className={"text-gray-900 pt-22 bg-green-100 pb-10"}>
+        <main className={"text-gray-900 pt-22 bg-green-100 pb-10 text-lg"}>
           {children}
         </main>
         <footer
