@@ -7,9 +7,7 @@ export default function About() {
   useEffect(() => {
     if (typeof window !== "undefined") {
       const hash = window.location.hash;
-      console.log(hash);
       if (hash) {
-        console.log(hash);
         const element = document.querySelector(hash);
         if (element) {
           element.scrollIntoView({ behavior: "smooth" });
