@@ -23,7 +23,7 @@ export default function ClassesPage() {
               </p>
               <div className="text-gray-700">
                 <strong>📍 Location:</strong>
-                <p className="text-gray-700 pl-3">
+                <p className="pl-3">
                   The Lonny Wilsoncroft Community Centre,
                   <br />
                   Stepping Lane,
