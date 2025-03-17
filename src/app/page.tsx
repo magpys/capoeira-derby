@@ -36,7 +36,7 @@ export default function Home() {
           </p>
         </div>
         <Image
-          src={"/adam-kicking.jpeg"}
+          src={"adam-kicking.jpeg"}
           alt={
             "A man on the ground kicking over the head of a small girl. A group of people watch, playing instruments."
           }
@@ -46,7 +46,7 @@ export default function Home() {
       </section>
       <section className="mx-auto max-w-5xl p-6 flex flex-col-reverse md:flex-row items-center gap-6">
         <Image
-          src={"/batteria.jpeg"}
+          src={"batteria.jpeg"}
           alt={
             "A group of musicians playing traditional Capoeira instruments with intent looks of concentration."
           }

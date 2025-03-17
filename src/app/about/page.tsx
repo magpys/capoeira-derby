@@ -16,6 +16,9 @@ export default function About() {
     }
   }, []);
 
+  const isProd = process.env.NODE_ENV === "production";
+  const basePath = isProd ? "/capoeira-derby" : "";
+
   return (
     <>
       <TitleBanner imageTitle={"group-sitting.jpeg"}>
@@ -145,7 +148,7 @@ export default function About() {
         </div>
         <div className={"flex flex-col justify-center items-center mt-10"}>
           <video controls width="600">
-            <source src="/dan-sequence.mp4" type="video/mp4" />
+            <source src={`${basePath}/dan-sequence.mp4`} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
