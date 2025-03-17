@@ -5,9 +5,7 @@ export default function CanIDoCapoeiraPage() {
   return (
     <>
       <TitleBanner imageTitle={"lots-of-games.jpeg"}>
-        <h1 className="text-4xl font-bold text-white text-center">
-          Can I Do Capoeira?
-        </h1>
+        <h1 className="text-4xl font-bold text-white text-center">FAQs</h1>
       </TitleBanner>
       <section className="mx-auto max-w-5xl p-12 flex gap-3 flex-col">
         <p className={"font-bold text-2xl"}>

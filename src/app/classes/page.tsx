@@ -54,9 +54,9 @@ export default function ClassesPage() {
               <p className="text-gray-700">
                 <strong>⏰ Time:</strong> 7:30 - 9:00pm
               </p>
-              <p className="text-gray-700">
+              <div className="text-gray-700">
                 <strong>📍 Location:</strong>
-                <p className="text-gray-700 pl-3">
+                <p className="pl-3">
                   The Lonny Wilsoncroft Community Centre,
                   <br />
                   Stepping Lane,
@@ -64,7 +64,7 @@ export default function ClassesPage() {
                   Derby, <br />
                   DE1 1GL
                 </p>
-              </p>
+              </div>
               <p className="text-gray-700">
                 <strong>💪 All Levels Welcome!</strong>
               </p>

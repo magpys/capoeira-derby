@@ -61,9 +61,7 @@ export default function Home() {
             misdirection and subterfuge run through the art like a lifeblood.
           </p>
           <p>
-            <StyledLink href={"/what-is-capoeira"}>
-              Learn more about Capoeira
-            </StyledLink>
+            <StyledLink href={"/about"}>Learn more about Capoeira</StyledLink>
           </p>
           <p>
             We have been teaching Capoeira in Derby city since the group was
@@ -71,7 +69,7 @@ export default function Home() {
             and currently under his senior students, Dan, Dave and Andy.
           </p>
           <p>
-            <StyledLink href={"/our-group"}>
+            <StyledLink href={"/about#our-group"}>
               Learn more about our group
             </StyledLink>
           </p>

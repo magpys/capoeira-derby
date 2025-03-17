@@ -7,10 +7,9 @@ import { useRouter } from "next/navigation";
 import MenuItemButton from "@/components/MenuItemButton";
 
 const menuItems: Record<string, string> = {
-  "What is Capoeira?": "/what-is-capoeira",
-  "Can I do Capoeira?": "/can-i-do-capoeira",
+  About: "/about",
   Classes: "/classes",
-  "Our Group": "/our-group",
+  FAQs: "/faqs",
 };
 
 export default function Header() {
