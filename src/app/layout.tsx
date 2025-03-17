@@ -5,6 +5,13 @@ import StyledLink from "@/components/StyledLink";
 import React from "react";
 import Header from "@/components/Header";
 import Link from "next/link";
+import { Nunito, Montserrat } from "next/font/google";
+
+const nunito = Nunito({ subsets: ["latin"], variable: "--font-nunito" });
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  variable: "--font-montserrat",
+});
 
 export const metadata: Metadata = {
   title: "Capoeira Derby",
@@ -17,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en-uk" className={`${nunito.variable} ${montserrat.variable}`}>
       <body className={`antialiased min-h-screen`}>
         <Header />
         <main className={"text-gray-900 pt-22 bg-green-100 pb-10 text-lg"}>

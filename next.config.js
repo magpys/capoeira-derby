@@ -1,5 +1,9 @@
 const nextConfig = {
-  /* config options here */
+  pageExtensions: ["js", "jsx", "ts", "tsx"],
+  output: "export",
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
