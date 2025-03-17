@@ -21,7 +21,7 @@ export default function ClassesPage() {
               <p className="text-gray-700">
                 <strong>⏰ Time:</strong> 7:00pm - 8:00pm
               </p>
-              <p className="text-gray-700">
+              <div className="text-gray-700">
                 <strong>📍 Location:</strong>
                 <p className="text-gray-700 pl-3">
                   The Lonny Wilsoncroft Community Centre,
@@ -31,7 +31,7 @@ export default function ClassesPage() {
                   Derby, <br />
                   DE1 1GL
                 </p>
-              </p>
+              </div>
               <p className="text-gray-700">
                 <strong>👶 Ages:</strong> 5 - 10
               </p>

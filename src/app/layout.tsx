@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import FacebookIcon from "@/components/FacebookIcon";
-import InstagramIcon from "@/components/InstagramIcon";
 import StyledLink from "@/components/StyledLink";
 import React from "react";
 import Header from "@/components/Header";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Capoeira Derby",
@@ -51,8 +51,13 @@ export default function RootLayout({
           <div className={"flex flex-col justify-center items-center gap-3"}>
             <p className={"font-bold text-lg"}>Find us on social media</p>
             <div className={"flex gap-3"}>
-              <FacebookIcon />
-              <InstagramIcon />
+              <Link
+                href="https://www.facebook.com/cdoderby"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FacebookIcon />
+              </Link>
             </div>
           </div>
         </footer>

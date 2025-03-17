@@ -1,5 +1,3 @@
-"use client";
-import { useState } from "react";
 import Link from "next/link";
 
 export default function MenuItem({
@@ -9,21 +7,12 @@ export default function MenuItem({
   title: string;
   href: string;
 }) {
-  const [hover, setHover] = useState(false);
-
   return (
     <Link
       href={href}
-      className="relative px-4 py-2 transition-transform duration-300"
-      onMouseEnter={() => setHover(true)}
-      onMouseLeave={() => setHover(false)}
+      className="px-4 py-2 hover:bg-yellow-400 hover:scale-105 hover:shadow-lg rounded-lg inline-block"
     >
-      <span className="relative z-10">{title}</span>
-      <div
-        className={`absolute inset-0 -z-10 transition-all duration-300 rounded-lg ${
-          hover ? "bg-yellow-400 scale-105 shadow-lg" : "bg-transparent"
-        }`}
-      ></div>
+      {title}
     </Link>
   );
 }
