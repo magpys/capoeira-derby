@@ -46,7 +46,7 @@ export default function About() {
           </div>
           <div className="min-w-fit flex flex-col justify-center items-center">
             <Image
-              src={"/laughing-roda.jpeg"}
+              src={"laughing-roda.jpeg"}
               alt={
                 "A man and child play capoeira while a group of musicians play and watch, laughing."
               }
@@ -75,7 +75,7 @@ export default function About() {
         <div className="flex flex-col md:flex-row gap-6 mt-3">
           <div className="min-w-fit flex flex-col justify-center items-center">
             <Image
-              src={"/rugendasroda.png"}
+              src={"rugendasroda.png"}
               alt={
                 "A painting of a group of people participating in a Capoeira roda."
               }
@@ -135,7 +135,7 @@ export default function About() {
             </p>
           </div>
           <Image
-            src={"/instructors.png"}
+            src={"instructors.png"}
             alt={
               "The head and shoulders of three men, smiling into the camera with arms around each others' shoulders."
             }

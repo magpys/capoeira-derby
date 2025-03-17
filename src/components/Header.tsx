@@ -28,7 +28,7 @@ export default function Header() {
       >
         <Link href={"/"}>
           <Image
-            src={`/Capoeira-derby-text-only.png`}
+            src={`capoeira-derby-text-only.png`}
             alt="Capoeira Derby"
             width={200}
             height={200}

@@ -34,14 +34,9 @@ export default function RootLayout({
             }
           >
             <p className={"font-bold text-lg"}>Quick Links</p>
-            <StyledLink href={"/what-is-capoeira"}>
-              What is Capoeira?
-            </StyledLink>
-            <StyledLink href={"/can-i-do-capoeira"}>
-              Can I do Capoeira?
-            </StyledLink>
+            <StyledLink href={"/about"}>About</StyledLink>
             <StyledLink href={"/classes"}>Classes</StyledLink>
-            <StyledLink href={"/our-group"}>Our Group</StyledLink>
+            <StyledLink href={"/faqs"}>FAQs</StyledLink>
           </div>
           <div className={"flex flex-col justify-center items-center"}>
             <p className={"font-bold text-lg"}>Contact</p>
