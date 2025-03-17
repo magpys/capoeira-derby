@@ -1,11 +1,6 @@
-// eslint-disable-next-line @typescript-eslint/no-require-imports
-import createMDX from "@next/mdx";
-
-const withMDX = createMDX();
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  pageExtensions: ["js", "jsx", "mdx", "ts", "tsx"],
+  pageExtensions: ["js", "jsx", "ts", "tsx"],
   output: "export",
   // required for when it is hosted on github pages with an endpoint.
   basePath: "/capoeira-derby",
@@ -15,4 +10,4 @@ const nextConfig = {
   },
 };
 
-export default withMDX(nextConfig);
+export default nextConfig;
