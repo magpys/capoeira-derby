@@ -16,6 +16,22 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Capoeira Derby",
   description: "Capoeira Derby",
+  openGraph: {
+    title: "Capoeira Derby",
+    description:
+      "Join Capoeira Derby to explore the art of Capoeira through movement, music, and community.",
+    url: "https://capoeira-derby.com",
+    siteName: "Capoeira Derby",
+    images: [
+      {
+        url: "https://capoeira-derby.com/capoeira-derby-text-only.png",
+        width: 881,
+        height: 401,
+        alt: "Capoeira Derby Logo",
+      },
+    ],
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -32,7 +48,7 @@ export default function RootLayout({
         </main>
         <footer
           className={
-            "flex w-screen bg-amber-50 justify-center p-6 gap-6 items-center flex-col md:flex-row md:justify-between md:items-start"
+            "flex w-full bg-amber-50 justify-center p-6 gap-6 items-center flex-col md:flex-row md:justify-between md:items-start"
           }
         >
           <div
@@ -48,7 +64,9 @@ export default function RootLayout({
           <div className={"flex flex-col justify-center items-center"}>
             <p className={"font-bold text-lg"}>Contact</p>
             <p>Daniel Griffiths</p>
-            <p>07970 446920</p>
+            <p>
+              <StyledLink href={"tel:07970446920"}>07970 446920</StyledLink>
+            </p>
           </div>
           <div className={"flex flex-col justify-center items-center gap-3"}>
             <p className={"font-bold text-lg"}>Find us on social media</p>

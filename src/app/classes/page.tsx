@@ -1,4 +1,5 @@
 import TitleBanner from "@/components/TitleBanner";
+import StyledLink from "@/components/StyledLink";
 
 export default function ClassesPage() {
   return (
@@ -97,8 +98,9 @@ export default function ClassesPage() {
           Bring a water bottle for hydration too!
         </p>
         <p className="p-4 mt-8 text-center text-lg font-semibold text-gray-900 bg-yellow-200 rounded-lg">
-          Ready to join? Contact Dan on 07970 446920 or drop in at one of the
-          classes listed above!
+          Ready to join? Contact Dan on{" "}
+          <StyledLink href={"tel:07970446920"}>07970 446920</StyledLink> or drop
+          in at one of the classes listed above!
         </p>
       </section>
     </>

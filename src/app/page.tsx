@@ -13,7 +13,7 @@ export default function Home() {
           <span className={"text-blue-200"}>Community</span>
         </h1>
       </TitleBanner>
-      <section className="relative mx-auto max-w-5xl p-12 flex items-center justify-center">
+      <section className="relative mx-auto max-w-5xl p-12 pb-3 flex items-center justify-center">
         <p className={"text-xl font-bold"}>
           Come and learn the Brazilian martial art of Capoeira, in Derby city.
         </p>

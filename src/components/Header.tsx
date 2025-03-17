@@ -24,7 +24,7 @@ export default function Header() {
   return (
     <>
       <header
-        className={`bg-white flex items-center justify-between p-12 gap-6 h-20 fixed z-10 w-screen`}
+        className={`bg-white flex items-center justify-between p-12 gap-6 h-20 fixed z-10 w-full`}
       >
         <Link href={"/"}>
           <Image
