@@ -12,38 +12,7 @@ export default function ClassesPage() {
           Capoeira is a full body and mind workout and no two classes are ever
           the same. Beginners are welcome to join us at any time.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="bg-white shadow-lg rounded-2xl p-6 border border-gray-200">
-            <h3 className="text-xl font-semibold text-blue-600">Kids Class</h3>
-            <div className={"flex flex-col gap-1 mt-2"}>
-              <p className="text-gray-700 mt-2">
-                <strong>🗓 Day:</strong> Thursday
-              </p>
-              <p className="text-gray-700">
-                <strong>⏰ Time:</strong> 7:00pm - 8:00pm
-              </p>
-              <div className="text-gray-700">
-                <strong>📍 Location:</strong>
-                <p className="pl-3">
-                  The Lonny Wilsoncroft Community Centre,
-                  <br />
-                  Stepping Lane,
-                  <br />
-                  Derby, <br />
-                  DE1 1GL
-                </p>
-              </div>
-              <p className="text-gray-700">
-                <strong>👶 Ages:</strong> 5 - 10
-              </p>
-            </div>
-            <p className="text-gray-700 mt-5">
-              An hour long session for 5 to 10 year olds that uses capoeira to
-              develop physical and social skills. Exercises are based on fun,
-              interaction and letting off steam!
-            </p>
-          </div>
-
+        <div className="grid grid-cols-1 gap-6">
           <div className="bg-white shadow-lg rounded-2xl p-6 border border-gray-200">
             <h3 className="text-xl font-semibold text-blue-600">
               Adults Class
@@ -84,9 +53,6 @@ export default function ClassesPage() {
           that you can pay per session or pay monthly (for a discounted rate).
         </p>
         <ul className="mt-2 pl-3 list-disc list-inside">
-          <li>
-            <strong>Kids Class:</strong> £8 per session or £15 per month.
-          </li>
           <li>
             <strong>Adults Class:</strong> £12 per session or £26 per month.
           </li>

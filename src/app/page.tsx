@@ -28,8 +28,7 @@ export default function Home() {
             Capoeira is more than just a martial art—it’s a blend of movement,
             music, and community. Whether you want to improve your fitness,
             learn acrobatics, or connect with Brazilian culture, our group
-            welcomes all levels, kids and adults. Come train, play, and grow
-            with us!
+            welcomes all levels. Come train, play, and grow with us!
           </p>
           <p>
             <StyledLink href={"/classes"}>Join a class today!</StyledLink>

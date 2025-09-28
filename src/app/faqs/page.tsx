@@ -1,5 +1,4 @@
 import TitleBanner from "@/components/TitleBanner";
-import StyledLink from "@/components/StyledLink";
 
 export default function CanIDoCapoeiraPage() {
   return (
@@ -70,13 +69,6 @@ export default function CanIDoCapoeiraPage() {
           Yes. Bring/wear clothes suitable for exercise and some water. Bare
           feet are best, but if you want to wear trainers the best are low
           profile close fitting shoes.
-        </p>
-        <p className={"font-bold text-xl italic"}>And children?</p>
-        <p>
-          Children develop at vastly different rates so the age range for our
-          classes is only a guide. Please see our{" "}
-          <StyledLink href={"/classes"}>classes page</StyledLink> for more
-          information.
         </p>
         <p className={"font-bold text-xl italic"}>Are you qualified?</p>
         <p>
